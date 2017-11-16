@@ -1,0 +1,191 @@
+* { margin: 0, padding: 0 }
+
+a {
+  dislay: block;
+  padding: inherit;
+  text-decoration: none;
+}
+
+body {
+    background-color: #87ceff;
+}
+h1 {
+    background-color: #ffec8b;
+}
+
+div {
+    background-color: 373737;
+}
+
+p {
+    background-color: #87ceff;
+}
+
+
+
+
+body, html {
+    height: 100%;
+}
+
+.menu-area {
+  font-family: arial;
+}
+
+
+.hero-image {
+    background-image: url("../Img/photo1.jpg");
+    height: 500px;
+  }
+
+.hero-text {
+    text-align: center;
+    float: right;
+    position: absolute;
+    top: 38%;
+    left: 68%;
+    color: #ffffff;
+    font-family: arial;
+}
+
+.about-me-image {
+
+}
+
+body {
+    margin: 0;
+
+}
+
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 20;
+overflow: hidden;
+background-color: #333;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color:black;
+text-align: center;
+padding: 14px 16px;
+padding-top: 50px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: #111;
+}
+
+.section-head {
+  background-color: #333;
+  text-align: center;
+  margin: 0px;
+  color: white;
+  padding: 20px;
+  font-weight: lighter;
+  font-family: arial;
+}
+
+.title {
+  color:black;
+  display: inline-block;
+  padding-top: 5px;
+  padding-left: 10px;
+  float: left;
+  font-family: arial;
+  font-weight: lighter;
+
+}
+
+
+.parent {
+display: flex;
+align-items: center;
+font-family: Arial;
+}
+
+.parent > div {
+flex: 1;
+font-family: arial;
+}
+
+
+.about-me-image:{
+    about-me url=(../img/photo2.jpeg")
+}
+
+
+#about-me {
+  padding: 20px;
+  font-family: arial;
+}
+
+.about-me {
+  flex: 1;
+  display: flex;
+  height: 1000px;
+  background-color: #FAF9F7;
+}
+
+.about-me-image {
+  flex: 1;
+  display: flex;
+  height: 1000px;
+}
+
+.about-me, .parent {
+  background-color: #FAF9F7;
+}
+
+.History {
+  background-color: #333;
+  margin: 0px;
+  text-align: center;
+  font-family: arial;
+
+
+}
+
+.History > h1 {
+    color: white;
+  }
+
+  .history-header {
+    font-weight: lighter;
+  }
+
+.box-color {
+  background-color: #FAF9F7;
+}
+
+
+.history-padding {
+  padding: 20px;
+  font-weight:lighter;
+}
+
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.contact-button {
+  background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 8px;
+
+}
+.contact-button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
